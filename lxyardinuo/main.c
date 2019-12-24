@@ -1,15 +1,447 @@
-//
-//  main.c
-//  lxyardinuo
-//
-//  Created by 20181106279 on 2019/12/24.
-//  Copyright © 2019 20181106279. All rights reserved.
-//
-
-#include <stdio.h>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
-    return 0;
+int e=13;
+void setup() {
+    // put your setup code here, to run once:
+    pinMode(e,OUTPUT);
+    
+}
+char a[]="hello!";
+int i=0;
+void loop() {
+    // put your main code here, to run repeatedly:
+    if(a[i]=='a'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='b'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='c'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='d'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='e'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='f'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='g'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='h'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='i'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='j'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='k'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='l'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='m'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='n'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='o'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='p'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='q'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='r'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='s'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='t'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='u'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='v'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='w'){
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='x'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='y'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='z'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        i=i+1;
+    }
+    else if(a[i]=='!'){
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(100);
+        digitalWrite(e,LOW);
+        delay(100);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        digitalWrite(e,HIGH);
+        delay(1000);
+        digitalWrite(e,LOW);
+        delay(1000);
+        i=i+1;
+    }
+    else if(a[i]=='\0'){
+        i=0;
+    }
 }
